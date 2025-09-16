@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.yoursite.com/sitemap.xml
+
+# Allow crawling of CSS and JS files
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Disallow crawling of video files to save bandwidth
+Disallow: /videos/
+
+# Allow social media crawling
+Allow: /images/og-*
+Allow: /images/social-*
